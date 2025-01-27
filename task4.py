@@ -17,7 +17,7 @@ for i in range(5):
         if str_in[j] in lowWords:
             str_in[j] = upWords[lowWords.index(str_in[j])]
         if str_in[j] == ' ':
-            str_in[j] = '-'
+            str_in[j] = '_'
     str_in.append('\n')
     lst.append(str_in)
 
